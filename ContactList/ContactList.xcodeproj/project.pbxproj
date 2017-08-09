@@ -14,6 +14,18 @@
 		C91D8DE21F3A4C84009AAA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91D8DE01F3A4C84009AAA90 /* LaunchScreen.storyboard */; };
 		C91D8DED1F3A4C84009AAA90 /* ContactListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8DEC1F3A4C84009AAA90 /* ContactListTests.swift */; };
 		C91D8DF81F3A4C84009AAA90 /* ContactListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8DF71F3A4C84009AAA90 /* ContactListUITests.swift */; };
+		C91D8E071F3A4FDA009AAA90 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E051F3A4FDA009AAA90 /* CollectionViewCell.swift */; };
+		C91D8E081F3A4FDA009AAA90 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C91D8E061F3A4FDA009AAA90 /* CollectionViewCell.xib */; };
+		C91D8E0D1F3BA291009AAA90 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E0C1F3BA291009AAA90 /* CoreDataController.swift */; };
+		C91D8E181F3BA9F1009AAA90 /* ContactList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E161F3BA9F1009AAA90 /* ContactList.xcdatamodeld */; };
+		C91D8E191F3BA9F1009AAA90 /* ContactList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E161F3BA9F1009AAA90 /* ContactList.xcdatamodeld */; };
+		C91D8E1A1F3BA9F1009AAA90 /* ContactList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E161F3BA9F1009AAA90 /* ContactList.xcdatamodeld */; };
+		C91D8E1D1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E1B1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift */; };
+		C91D8E1E1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E1B1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift */; };
+		C91D8E1F1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E1B1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift */; };
+		C91D8E201F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E1C1F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift */; };
+		C91D8E211F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E1C1F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift */; };
+		C91D8E221F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D8E1C1F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,12 @@
 		C91D8DF31F3A4C84009AAA90 /* ContactListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91D8DF71F3A4C84009AAA90 /* ContactListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListUITests.swift; sourceTree = "<group>"; };
 		C91D8DF91F3A4C84009AAA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C91D8E051F3A4FDA009AAA90 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C91D8E061F3A4FDA009AAA90 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		C91D8E0C1F3BA291009AAA90 /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataController.swift; path = ContactList/CoreDataController.swift; sourceTree = "<group>"; };
+		C91D8E171F3BA9F1009AAA90 /* ContactList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactList.xcdatamodel; sourceTree = "<group>"; };
+		C91D8E1B1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C91D8E1C1F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 		C91D8DCB1F3A4C84009AAA90 = {
 			isa = PBXGroup;
 			children = (
+				C91D8E231F3BAC95009AAA90 /* Data */,
 				C91D8DD61F3A4C84009AAA90 /* ContactList */,
 				C91D8DEB1F3A4C84009AAA90 /* ContactListTests */,
 				C91D8DF61F3A4C84009AAA90 /* ContactListUITests */,
@@ -100,6 +119,8 @@
 				C91D8DD71F3A4C84009AAA90 /* AppDelegate.swift */,
 				C91D8DD91F3A4C84009AAA90 /* ViewController.swift */,
 				C91D8DDB1F3A4C84009AAA90 /* Main.storyboard */,
+				C91D8E051F3A4FDA009AAA90 /* CollectionViewCell.swift */,
+				C91D8E061F3A4FDA009AAA90 /* CollectionViewCell.xib */,
 				C91D8DDE1F3A4C84009AAA90 /* Assets.xcassets */,
 				C91D8DE01F3A4C84009AAA90 /* LaunchScreen.storyboard */,
 				C91D8DE31F3A4C84009AAA90 /* Info.plist */,
@@ -123,6 +144,17 @@
 				C91D8DF91F3A4C84009AAA90 /* Info.plist */,
 			);
 			path = ContactListUITests;
+			sourceTree = "<group>";
+		};
+		C91D8E231F3BAC95009AAA90 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C91D8E161F3BA9F1009AAA90 /* ContactList.xcdatamodeld */,
+				C91D8E1B1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift */,
+				C91D8E1C1F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift */,
+				C91D8E0C1F3BA291009AAA90 /* CoreDataController.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +269,7 @@
 			files = (
 				C91D8DE21F3A4C84009AAA90 /* LaunchScreen.storyboard in Resources */,
 				C91D8DDF1F3A4C84009AAA90 /* Assets.xcassets in Resources */,
+				C91D8E081F3A4FDA009AAA90 /* CollectionViewCell.xib in Resources */,
 				C91D8DDD1F3A4C84009AAA90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91D8DDA1F3A4C84009AAA90 /* ViewController.swift in Sources */,
+				C91D8E181F3BA9F1009AAA90 /* ContactList.xcdatamodeld in Sources */,
+				C91D8E201F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift in Sources */,
+				C91D8E0D1F3BA291009AAA90 /* CoreDataController.swift in Sources */,
 				C91D8DD81F3A4C84009AAA90 /* AppDelegate.swift in Sources */,
+				C91D8E1D1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift in Sources */,
+				C91D8E071F3A4FDA009AAA90 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91D8E211F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift in Sources */,
+				C91D8E191F3BA9F1009AAA90 /* ContactList.xcdatamodeld in Sources */,
+				C91D8E1E1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift in Sources */,
 				C91D8DED1F3A4C84009AAA90 /* ContactListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91D8E221F3BAB0F009AAA90 /* Contact+CoreDataProperties.swift in Sources */,
+				C91D8E1A1F3BA9F1009AAA90 /* ContactList.xcdatamodeld in Sources */,
+				C91D8E1F1F3BAB0F009AAA90 /* Contact+CoreDataClass.swift in Sources */,
 				C91D8DF81F3A4C84009AAA90 /* ContactListUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GUY34L2LLG;
 				INFOPLIST_FILE = ContactList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.benrussell.ContactList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GUY34L2LLG;
 				INFOPLIST_FILE = ContactList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.benrussell.ContactList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +562,7 @@
 				C91D8DFE1F3A4C84009AAA90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C91D8DFF1F3A4C84009AAA90 /* Build configuration list for PBXNativeTarget "ContactListTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +571,7 @@
 				C91D8E011F3A4C84009AAA90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C91D8E021F3A4C84009AAA90 /* Build configuration list for PBXNativeTarget "ContactListUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,8 +580,23 @@
 				C91D8E041F3A4C84009AAA90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C91D8E161F3BA9F1009AAA90 /* ContactList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C91D8E171F3BA9F1009AAA90 /* ContactList.xcdatamodel */,
+			);
+			currentVersion = C91D8E171F3BA9F1009AAA90 /* ContactList.xcdatamodel */;
+			name = ContactList.xcdatamodeld;
+			path = ContactList/ContactList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C91D8DCC1F3A4C84009AAA90 /* Project object */;
 }
